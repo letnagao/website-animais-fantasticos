@@ -1,10 +1,7 @@
-const comida = 'Pizza';
-const frase = 'A melhor comida';
+frames.repeat(4);
 
-comida.length; // 5
-frase.length; // 15
+let listaItens = 'Black White Blue';
 
-comida[0] // P
-frase[0] // A
-frase[frase.length - 1] // a
+listaItens = listaItens.replace(/[ ]+/g, ', ');
 
+console.log(listaItens);
